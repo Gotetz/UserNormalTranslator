@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UserNormalTranslator Usage Guide</title>
+<style type="text/css">
+<!--
+body {
+	margin:0;
+	padding:0;
+	width:800px;
+
+}
+h1 {
+	background-color: #444;
+	color:white;
+	height:1.5em;
+	padding-top:10px;
+	padding-left:16px;
+	margin:0;
+}
+h2 {
+	background-color: #888;
+	color:white;
+	border-bottom:1px dotted #999;
+	padding:2px 8px;
+}
+p {
+	padding-left:8px;
+	text-indent:1em;
+	line-height: 130%;
+}
+p.ver {
+	text-align:right;
+}
+.main {
+	padding-left:16px;	
+}
+table {
+}
+th {
+	background-color:#ccc;
+	border:1px solid white;
+	padding-left:16px;
+}
+td {
+	background-color:#ddd;
+	border:1px solid white;
+}
+td, th {
+	padding:4px;
+}
+td.item {
+	text-align:center;
+}
+td.text {
+	padding-left:12px;
+}
+
+-->
+</style>
+</head>
+
+<body>
+<h1>UserNormalTranslator Usage Guide</h1>
+<div class="main">
+<h2>How to use the UserNormalTranslator</h2>
+<p>UserNormalTranslator is a tool to assist with User-Normal editing in Softimage.<br />
+Editing normals would become much easier and quicker using the tools provided by this plugin.<br />
+</p>
+<h2>Install</h2>
+<p>UserNormalTranslator is provided in an addon (*.xsiaddon) format.  <br />
+  Expand the downloaded UserNormalTranslator.zip file. And then drop UserNormalTranslator.xsiaddon file to Softimage viewport.<br />
+  Open the menu &quot;Model toolbar &gt; Modify &gt; Component&quot;.<br />
+  If you find "UserNormalTranslator" item added in the menu the installation is complete.<br />
+  Also, it is possible to install it in any workgroup. <br />
+  Perform the install operation in plugin-manager if you prefer to install it in a workgroup.<br />
+</p>
+<h2>UI and Features</h2>
+<p><img src="images/gui_all_en.png" width="410" height="450" /></p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th colspan="2">Offset Tool</th></tr>
+  <tr>
+    <td colspan="2" class="text">This tool lets you adjust the User-Normals of the selected vertices by adding or multiplying an arbitrary values to the User-Normal vectors.</td>
+    </tr>
+  <tr>
+    <td width="45" class="item">A</td>
+    <td class="text">Change the type of offset processing to addition mode.<br />In addition mode, the entered values are added to the User-Normal vectors.<br /></td>
+  </tr>
+  <tr>
+    <td class="item">B</td>
+    <td class="text">Change the type of offset processing to multiplication mode.<br />
+      In multiplication mode, the entered values are multiplied with the User-Normal vectors.</td>
+  </tr>
+  <tr>
+    <td class="item">C</td>
+    <td class="text">Enter values for each axis that you want to process.</td>
+  </tr>
+  <tr>
+    <td class="item">D</td>
+    <td class="text">Press any button to process the User-Normal by a prefixed value.</td>
+  </tr>
+  <tr>
+    <td class="item">E</td>
+    <td class="text">Reset user entered values to default values.</td>
+  </tr>
+  <tr>
+    <td class="item">F</td>
+    <td class="text">Change the type of offset processing.<br />
+    &lt;off&gt; Add/Multiply the Entered values to User-Normal vectors. (default)<br />
+    &lt;on&gt; Apply entered values to User-Normal values.</td>
+  </tr>
+  <tr>
+    <td class="item">G</td>
+    <td class="text">Change the coordinate space used by offset.<br />
+      &lt;off&gt; In object local space. (default)<br />
+      &lt;on&gt; In world space.</td>
+  </tr>
+  <tr>
+    <td class="item">H</td>
+    <td class="text">Apply offset to all three axis based on the  values entered in "C".</td>
+  </tr>
+  <tr>
+    <th colspan="2">Spherize Tool</th>
+  </tr>
+  <tr>
+            <td colspan="2" class="text">This tool creates a set of vectors that radiate from a chosen point, and adds it to your selected User-Normals at any chosen strength.</td>
+          </tr>
+          <tr>
+    <td class="item">I</td>
+    <td class="text">Enter a value of the strength of spherization.</td>
+  </tr>
+  <tr>
+    <td class="item">J</td>
+    <td class="text">Press any button to add the radiated vector by a fixed strength.</td>
+  </tr>
+  <tr>
+    <td class="item">K</td>
+    <td class="text">Create a null that will become the center of Spherization.<br />
+      If you have components selected, the null will be created at the center of the bounding box of the components.<br />
+      The created null can be moved freely.<br />
+      If you execute this tool while a null already exists, it will replace the null in a new position.</td>
+  </tr>
+  <tr>
+    <td class="item">L</td>
+    <td class="text">Apply spherization by the strength value entered in "I".<br />If you do not have a Center null, the center of the spherization would be the COG of your selected components.</td>
+  </tr>
+  <tr>
+      <th colspan="2">Normal Editing Tool</tr>
+  <tr>
+    <td class="item">M</td>
+    <td class="text">Normalize the User-Normals.
+      <br />
+      Note that this tool automatically normalizes the normals whenever executing any Offset or Spherizing tool.</td>
+  </tr>
+  <tr>
+    <td class="item">N</td>
+    <td class="text">Invert the User-Normals.      </td>
+  </tr>
+  <tr>
+    <td class="item">O</td>
+    <td class="text">Reset the User-Normals
+      to initial state.</td>
+  </tr>
+  <tr>
+    <td class="item">P</td>
+    <td class="text">Smoothes the User-Normals.<br />
+    This tool smoothes the User-Normals in reference to the normals of the neighboring vertices</td>
+  </tr>
+  <tr>
+    <td class="item">Q</td>
+    <td class="text">Remake the User-Normal cluster while keeping User-Normal values.<br />
+    Useful to repair locked or corrupt User-Normal Clusters.</td>
+  </tr>
+  <tr>
+    <th colspan="2">Value Editing Tool</th>
+  </tr>
+  <tr>
+    <td colspan="2" class="text">This tool  assists the numeric editing of User-Normals by baking the normal values into vertex-color values and vise-versa.</td>
+    </tr>
+  <tr>
+    <td class="item">R</td>
+    <td class="text">Bake User-Normal values to Vertex Color map.<br />
+    The values will be compressed into a range from 0.0 to 1.0 because Vertex Colors can not have negative values.<br />
+    It will automatically make a vertex-color map in the name  &quot;UserNormalTemp&quot;.</td>
+  </tr>
+  <tr>
+    <td class="item">S</td>
+    <td class="text">Bake &quot;UserNormalTemp&quot;'s Vertex Colors values back to User-Normal map.<br />
+      It will expand the values back to range -1.0 to 1.0.</td>
+  </tr>
+</table>
+</div>
+<p class="ver">Version 1.0</p>
+<br />
+</body>
+</html>
