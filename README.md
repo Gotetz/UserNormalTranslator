@@ -2,7 +2,7 @@ UserNormalTranslator
 ====================
 
 ### Description
-A User Normal Editing Tool plugin for Softimage  
+UserNormalTranslator is an User Normal Editing Tool plugin for Softimage.
 This tool will assist you to adjust the User-Normals in Softimage.
 
 ### Download
