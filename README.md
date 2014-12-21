@@ -1,12 +1,17 @@
 UserNormalTranslator
 ====================
 
+
+Copyright (c) 2014, Gotetz (http://gotetz-log.blogspot.jp/)  
+All rights reserved.  
+This software is released under the MIT License, see LICENSE.txt.
+
 ### Description
 UserNormalTranslator is a User Normal Editing Tool plugin for Softimage.  
 This tool will assist you to adjust the User-Normals in Softimage.
 
 ### Download
-Download from page of file 'UserNormalTranslator.xsiaddon' or 'UserNormalTranslator.js'.  
+Open the page of file 'UserNormalTranslator.xsiaddon' or 'UserNormalTranslator.js'.  
 Save from link url by right-clicking over 'Raw' button.
 * [UserNormalTranslator Repository](https://github.com/Gotetz/UserNormalTranslator/) (This Page)
 
