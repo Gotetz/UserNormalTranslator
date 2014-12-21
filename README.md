@@ -4,7 +4,7 @@ UserNormalTranslator
 
 Copyright (c) 2014, Gotetz (http://gotetz-log.blogspot.jp/)  
 All rights reserved.  
-This software is released under the MIT License, see LICENSE.txt.
+Released under the MIT License, see LICENSE.txt.
 
 ### Description
 UserNormalTranslator is a User Normal Editing Tool plugin for Softimage.  
