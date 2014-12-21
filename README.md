@@ -25,5 +25,5 @@ Save from link url by right-clicking over 'Raw' button.
 * [Japanese](https://gotetz.github.io/UserNormalTranslator/htdocs/userNormalTranslator_guide_jp.htm)
 
 ### Features Movie Guide
-* [Vimeo](https://vimeo.com/76800892)
-* [Youtube](http://youtu.be/yZ7avnmYFM4)
+* [Vimeo](https://vimeo.com/115104048)
+* [Youtube](http://youtu.be/iH3p8N7qbv8)
