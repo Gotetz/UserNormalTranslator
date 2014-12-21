@@ -14,7 +14,7 @@ This tool will assist you to adjust the User-Normals in Softimage.
 
 ### Download
 『UserNormalTranslator.xsiaddon』または『UserNormalTranslator.js』ファイルのページを開いてください。  
-『Raw』ボタンの上で右クリックして、ポップアップメニューからファイルを保存します。  
+『Raw』ボタンの上で右クリックして、ポップアップメニューから保存を選択します。  
   
 Open the page of file 'UserNormalTranslator.xsiaddon' or 'UserNormalTranslator.js'.  
 Save from link url by right-clicking over 'Raw' button.
