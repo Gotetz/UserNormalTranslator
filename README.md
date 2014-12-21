@@ -7,7 +7,7 @@ This tool will assist you to adjust the User-Normals in Softimage.
 
 ### Download
 Download from page of file 'UserNormalTranslator.xsiaddon' or 'UserNormalTranslator.js'.  
-Save from link url by right-clicking over 'Row' button.
+Save from link url by right-clicking over 'Raw' button.
 * [UserNormalTranslator Repository](https://github.com/Gotetz/UserNormalTranslator/) (This Page)
 
 ### Usage Guide
