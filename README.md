@@ -1,6 +1,5 @@
-UserNormalTranslator
+User Normal Translator
 ====================
-
 
 Copyright (c) 2014, Gotetz (http://gotetz-log.blogspot.jp/)  
 All rights reserved.  
